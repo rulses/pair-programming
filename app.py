@@ -10,7 +10,7 @@ app.config["SECRET_KEY"] = "seasdad(*2sffcra01^23sdet"
 CORS(app)
 
 # Get this URL from the Azure Overview page of your API web app
-api_url = "https://rulses-api-dwezd0bucqhhhedt.eastus-01.azurewebsites.net"  
+api_url = "rulses-api-dwezd0bucqhhhedt.eastus-01.azurewebsites.net"  
 
 
 # main index page route
