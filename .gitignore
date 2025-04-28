@@ -1,66 +1,28 @@
-# OS generated files
-
+# hidden Mac file of cached metadata when Finder is used to browse folders
 .DS_Store
-Thumbs.db
+
 
 #VS Code workspace file
+.VSCode
 
-# .VSCode
 
-# VS Code settings (optional: keep if you want to share with students)
-
-# .vscode/
-
-# Logs and environments
-
-_.log
+#Python dotenv file
 .env
-_.env
 
-# pre-commit cache
-
-.pre-commit-config.yaml~
-.pre-commit/
-
-# Jupyter
-
-.ipynb_checkpoints/
-
-# Virtual environments
-
+#Python virtual environment
 venv/
-env/
-.venv/
 
-#Python bytecode files
-**pycache**/
-_.py[cod]
-_$py.class
+#Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Python egg files
-
-_.egg-info/
-_.egg
-dist/
-build/
-
-# Testing
-
-.coverage
-htmlcov/
-.tox/
-.nox/
-.pytest_cache/
-
-# MyPy and Bandit
-
-.mypy_cache/
-.bandit/
 
 #R
 .Rproj.user
 .Rdata
 .Rhistory
+
 
 #environment file for AWS Beanstalk
 .ebextensions/environment_variables.config
